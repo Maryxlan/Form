@@ -16,15 +16,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Absender-E-Mail-Adresse festlegen
     $fromEmail = $_POST["email"]; 
 
-    // Erstellen eines PHPMailer-Objekts
     $mail = new PHPMailer(true);
 
     try {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'maria.lani96@gmail.com'; // Deine Hotmail-Adresse
-        $mail->Password   = '***'; // Dein Hotmail-Passwort
+        $mail->Username   = 'maria.lani96@gmail.com'; 
+        $mail->Password   = '***'; 
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
        // $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
