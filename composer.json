@@ -1,0 +1,14 @@
+{
+    "name": "maria/form",
+    "description": "set",
+    "authors": [
+        {
+            "name": "Maria Laniewska",
+            "email": "maria.laniewska@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "dev-master"
+    }
+}
