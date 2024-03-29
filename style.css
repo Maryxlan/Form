@@ -1,17 +1,17 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Moderne Schriftart */
-    background-color: black; /* Schwarzer Hintergrund */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: black; 
     margin: 0;
     padding: 0;
 }
 
 .container {
     width: 80%;
-    margin: 50px auto; /* Zentriertes Layout */
+    margin: 50px auto; 
     padding: 20px;
-    background: linear-gradient(to bottom, #110335, #6a49ad); /* Leichte Schattierungen in Violett */
+    background: linear-gradient(to bottom, #110335, #6a49ad);
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(104, 22, 22, 0.3); /* Leichter Schatten */
+    box-shadow: 0 0 20px rgba(104, 22, 22, 0.3); 
 }
 
 h1{
@@ -60,18 +60,18 @@ button[type="submit"] {
     color: white;
     padding: 10px 20px;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Animierter Übergang bei Hover */
+    transition: background-color 0.3s ease; 
     display: block;
     margin: 0 auto;
     border-radius: 5px;
 }
 
 button[type="submit"]:hover {
-    background-color: #b7a1cc; /* Leichtes Lila bei Hover */
+    background-color: #b7a1cc; 
 }
 
 button[type="submit"]:active {
-    transform: translateY(2px); /* Leichte Anhebung beim Klicken */
+    transform: translateY(2px);
 }
 
 .success-message {
